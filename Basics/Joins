@@ -1,0 +1,5 @@
+INNER JOIN → Only common records.
+LEFT JOIN → Everything from the left + matches.
+RIGHT JOIN → Everything from the right + matches.
+FULL JOIN → Everything from both tables.
+SELF JOIN → Table joined with itself.
