@@ -1,0 +1,6 @@
+SELECT e1.Name, e2.Name AS Manager
+FROM Employees e1
+JOIN Employees e2
+ON e1.ManagerID = e2.EmployeeID;
+
+Table that joins with itself
