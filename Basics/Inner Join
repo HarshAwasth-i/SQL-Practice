@@ -1,0 +1,6 @@
+SELECT *
+FROM Employees e
+INNER JOIN Departments d
+ON e.DepartmentID = d.DepartmentID;
+
+Returns only matching rows from both tables
