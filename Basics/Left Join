@@ -1,0 +1,6 @@
+SELECT *
+FROM Employees e
+LEFT JOIN Departments d
+ON e.DepartmentID = d.DepartmentID;
+
+Returns all rows from the left table + matching rows from the right table.
