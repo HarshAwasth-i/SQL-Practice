@@ -1,4 +1,4 @@
-SELECT name, salary
-FROM Employees
-WHERE salary > 50000
-ORDER BY salary DESC;
+1-SELECT name, salary
+2-FROM Employees
+3-WHERE salary > 50000
+4-ORDER BY salary DESC;
