@@ -1,0 +1,12 @@
+Common Table Expression
+It is a temporary named result set created using WITH.
+---Store the result of a query with a name and use it immediately---
+
+Basic Syntax-
+WITH EmpCTE AS (
+    SELECT *
+    FROM Employee
+    WHERE salary > 50000
+)
+SELECT *
+FROM EmpCTE;
