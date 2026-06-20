@@ -1,0 +1,20 @@
+A subquery is a query inside another query
+It is used when two conditions are used in a same statement
+
+
+SELECT name
+FROM Employee
+WHERE salary > (
+    SELECT AVG(salary)
+    FROM Employee
+);
+
+
+SELECT e1.name
+FROM Employee e1
+WHERE salary >
+(
+    SELECT AVG(salary)
+    FROM Employee e2
+    WHERE e1.dept_id = e2.dept_id
+);
