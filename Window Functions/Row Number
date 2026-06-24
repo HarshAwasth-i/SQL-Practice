@@ -1,0 +1,5 @@
+SELECT *,
+       ROW_NUMBER() OVER(PARTITION BY department ORDER BY salary DESC) AS rn
+FROM Employees;
+
+Use: Give a unique rank to each row
