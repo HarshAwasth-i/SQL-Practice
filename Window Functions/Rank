@@ -1,0 +1,7 @@
+SELECT *,
+       RANK() OVER(ORDER BY salary DESC) AS rnk
+FROM Employees;
+
+
+Use: Same values get the same rank, but ranks can skip numbers
+Example: 1, 2, 2, 4
