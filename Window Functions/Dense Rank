@@ -1,0 +1,10 @@
+DENSE_RANK() OVER (
+    PARTITION BY column_name
+    ORDER BY column_name DESC
+)
+
+DENSE_RANK() assigns a rank to each row based on the ORDER BY clause.
+If two rows have the same value, they receive the same rank without skipping the next rank.
+
+PARTITION BY → Creates separate groups (optional).
+ORDER BY → Decides how the ranking is assigned.
