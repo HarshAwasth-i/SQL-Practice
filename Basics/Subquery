@@ -1,5 +1,5 @@
-A subquery is a query inside another query
-It is used when two conditions are used in a same statement
+A subquery is a query inside another query.
+It is used when two conditions are used in a same statement.
 
 
 SELECT name
